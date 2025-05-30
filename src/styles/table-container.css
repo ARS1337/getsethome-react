@@ -1,0 +1,74 @@
+.table-container {
+  background-color: white;
+  padding: 1.4rem 0 0 0;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+thead td {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: rgb(160, 158, 158);
+  padding-bottom : 0.3rem;
+}
+
+td,
+th {
+  border-bottom: 0.1rem solid rgb(236, 231, 231);
+  text-align: center;
+}
+
+tbody tr:last-child td {
+  border-bottom : none;
+}
+
+tbody td {
+  padding-top : 1rem;
+  padding-bottom : 1rem;
+}
+
+table {
+   border-collapse: collapse;
+   width : 100%
+}
+
+.date-container{
+  margin-left : 0.7rem;
+}
+
+.ref-id-cell > div {
+  display : flex;
+  flex-direction : column;
+  gap : 0.5rem;
+}
+
+.ref-id-cell {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.amount-cell {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.type-cell {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.month-cell {
+  font-size: 0.6rem;
+  font-weight: 400;
+  background-color: #f3e4ff;
+  padding: 0.1rem 0.5rem;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.date-cell {
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: #fbf8fe;
+  padding: 0.2rem 0.6rem;
+}

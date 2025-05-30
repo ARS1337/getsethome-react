@@ -1,0 +1,19 @@
+.bottom-placeholder-bill-payments {
+  height: 18rem;
+  width: auto;
+  background-color: white;
+  margin: 0rem 0rem;
+}
+
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 24px;
+  }
+
+  .bottom-placeholder-bill-payments {
+    height: 15rem;
+    width: auto;
+    background-color: white;
+    margin: 0rem 0rem;
+  }
+}

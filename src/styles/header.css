@@ -1,0 +1,20 @@
+.arrow-icon-container {
+  background-image: linear-gradient(rgb(179, 0, 255), rgb(91, 40, 233));
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+
+.arrow-icon-container img {
+  height: 1rem;
+  width: 1rem;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+header {
+  padding: 1rem 1rem 1rem;
+  gap: 1rem;
+}

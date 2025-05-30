@@ -1,0 +1,144 @@
+.form-fields {
+  padding: 1rem;
+  background-color: white;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  gap: 1rem;
+}
+
+.form-fields label,
+.radio-label-group {
+  font-size: 0.75rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.3rem;
+  font-weight: 600;
+  color: rgb(159, 158, 158);
+}
+
+.form-fields label {
+  display: block;
+}
+
+.form-fields input {
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  color: rgb(81, 81, 81);
+  font-weight: 600;
+}
+
+.bottom-placeholder {
+  height: 6rem;
+  width: auto;
+  background-color: white;
+  margin: 0rem 0rem;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    min-width: 375px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  body {
+    min-width: 425px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+
+  .form-fields {
+    gap: 1.3rem;
+  }
+
+  .form-fields label,
+  .radio-label-group {
+    font-size: 0.8rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.4rem;
+  }
+
+  .form-fields input {
+    font-size: 0.9rem;
+  }
+
+  .radio-group label {
+    display: inline;
+    font-size: 0.8rem;
+  }
+
+  .radio-label-group {
+    padding-bottom: 0.4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+
+  .form-fields {
+    gap: 1.5rem;
+  }
+
+  .form-fields label,
+  .radio-label-group {
+    font-size: 0.8rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.4rem;
+  }
+
+  .form-fields input {
+    font-size: 0.9rem;
+  }
+
+  .radio-group label {
+    display: inline;
+    font-size: 0.8rem;
+  }
+
+  .radio-label-group {
+    padding-bottom: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 10px;
+  }
+
+  .form-fields {
+    gap: 1.2rem;
+  }
+
+  .form-fields label,
+  .radio-label-group {
+    font-size: 0.8rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.4rem;
+  }
+
+  .form-fields input {
+    font-size: 0.9rem;
+  }
+
+  .radio-group label {
+    display: inline;
+    font-size: 1rem;
+  }
+
+  .radio-label-group {
+    padding-bottom: 0.8rem;
+  }
+
+  .bottom-placeholder {
+    height: 5rem;
+    width: auto;
+    background-color: white;
+    margin: 0rem 0rem;
+  }
+}

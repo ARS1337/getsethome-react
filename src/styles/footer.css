@@ -1,0 +1,35 @@
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-image: linear-gradient(to right, rgb(179, 0, 255), rgb(91, 40, 233));
+  color: white;
+  border-top-right-radius: 4.8rem;
+  font-size: 0.6rem;
+  font-weight: 500;
+  padding: 0.2rem 1.5rem 0.4rem 0.1rem;
+}
+
+footer > div {
+  margin: 0 auto;
+}
+
+footer img {
+  height: 2rem;
+  width: 2rem;
+}
+
+@media screen and (min-width: 1280px) {
+    main{
+        position : relative;
+    }
+    footer{
+        position : sticky;
+        bottom : 0;
+        left : 0;
+        right : 0;
+        margin: 0rem -0.7rem;
+        margin-top: -2rem;
+    }
+}
