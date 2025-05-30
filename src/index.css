@@ -46,3 +46,9 @@ main input[type="radio"] {
 .w-full {
   width: 100%;
 }
+
+@media screen and (min-width: 1280px) {
+  a {
+    font-size: 14px;
+  }
+}
